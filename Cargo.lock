@@ -685,8 +685,8 @@ dependencies = [
  "serde_derive 1.0.110 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.53 (registry+https://github.com/rust-lang/crates.io-index)",
  "servo-fontconfig 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "xi-core-lib 0.3.0 (git+https://github.com/google/xi-editor?rev=65911d9)",
- "xi-rpc 0.3.0 (git+https://github.com/google/xi-editor?rev=65911d9)",
+ "xi-core-lib 0.3.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)",
+ "xi-rpc 0.3.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)",
 ]
 
 [[package]]
@@ -1417,7 +1417,7 @@ dependencies = [
 [[package]]
 name = "xi-core-lib"
 version = "0.3.0"
-source = "git+https://github.com/google/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
+source = "git+https://github.com/xi-editor/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
 dependencies = [
  "crossbeam-channel 0.3.9 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1431,16 +1431,16 @@ dependencies = [
  "syntect 3.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "time 0.1.43 (registry+https://github.com/rust-lang/crates.io-index)",
  "toml 0.5.6 (registry+https://github.com/rust-lang/crates.io-index)",
- "xi-rope 0.3.0 (git+https://github.com/google/xi-editor?rev=65911d9)",
- "xi-rpc 0.3.0 (git+https://github.com/google/xi-editor?rev=65911d9)",
- "xi-trace 0.2.0 (git+https://github.com/google/xi-editor?rev=65911d9)",
- "xi-unicode 0.2.0 (git+https://github.com/google/xi-editor?rev=65911d9)",
+ "xi-rope 0.3.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)",
+ "xi-rpc 0.3.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)",
+ "xi-trace 0.2.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)",
+ "xi-unicode 0.2.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)",
 ]
 
 [[package]]
 name = "xi-rope"
 version = "0.3.0"
-source = "git+https://github.com/google/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
+source = "git+https://github.com/xi-editor/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
 dependencies = [
  "bytecount 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "memchr 2.3.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1452,20 +1452,20 @@ dependencies = [
 [[package]]
 name = "xi-rpc"
 version = "0.3.0"
-source = "git+https://github.com/google/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
+source = "git+https://github.com/xi-editor/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
 dependencies = [
  "crossbeam-utils 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "log 0.4.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.110 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_derive 1.0.110 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.53 (registry+https://github.com/rust-lang/crates.io-index)",
- "xi-trace 0.2.0 (git+https://github.com/google/xi-editor?rev=65911d9)",
+ "xi-trace 0.2.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)",
 ]
 
 [[package]]
 name = "xi-trace"
 version = "0.2.0"
-source = "git+https://github.com/google/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
+source = "git+https://github.com/xi-editor/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
 dependencies = [
  "lazy_static 1.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.70 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1479,7 +1479,7 @@ dependencies = [
 [[package]]
 name = "xi-unicode"
 version = "0.2.0"
-source = "git+https://github.com/google/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
+source = "git+https://github.com/xi-editor/xi-editor?rev=65911d9#65911d91eb1dcc3dac5b94ace31fad8058011526"
 
 [[package]]
 name = "xml-rs"
@@ -1645,9 +1645,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum winapi-util 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "70ec6ce85bb158151cae5e5c87f95a8e97d2c0c4b001223f33a334e3ce5de178"
 "checksum winapi-x86_64-pc-windows-gnu 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)" = "712e227841d057c1ee1cd2fb22fa7e5a5461ae8e48fa2ca79ec42cfc1931183f"
 "checksum ws2_32-sys 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d59cefebd0c892fa2dd6de581e937301d8552cb44489cdff035c6187cb63fa5e"
-"checksum xi-core-lib 0.3.0 (git+https://github.com/google/xi-editor?rev=65911d9)" = "<none>"
-"checksum xi-rope 0.3.0 (git+https://github.com/google/xi-editor?rev=65911d9)" = "<none>"
-"checksum xi-rpc 0.3.0 (git+https://github.com/google/xi-editor?rev=65911d9)" = "<none>"
-"checksum xi-trace 0.2.0 (git+https://github.com/google/xi-editor?rev=65911d9)" = "<none>"
-"checksum xi-unicode 0.2.0 (git+https://github.com/google/xi-editor?rev=65911d9)" = "<none>"
+"checksum xi-core-lib 0.3.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)" = "<none>"
+"checksum xi-rope 0.3.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)" = "<none>"
+"checksum xi-rpc 0.3.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)" = "<none>"
+"checksum xi-trace 0.2.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)" = "<none>"
+"checksum xi-unicode 0.2.0 (git+https://github.com/xi-editor/xi-editor?rev=65911d9)" = "<none>"
 "checksum xml-rs 0.8.3 (registry+https://github.com/rust-lang/crates.io-index)" = "b07db065a5cf61a7e4ba64f29e67db906fb1787316516c4e6e5ff0fea1efcd8a"
